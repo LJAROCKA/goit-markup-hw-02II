@@ -8,13 +8,15 @@
 --color-buttom-first: #FFFFFF;
 }
 body {
-    font-family: 'Roboto','Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: var(--color-text);
+    background-color: var(--color-buttom-first);
 }
 .navigation {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
+    letter-spacing: 0.02em;
     color: var(--color-background-team);
     text-decoration: none;}
     
@@ -24,6 +26,8 @@ body {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 } 
 .navigation:hover {
     color:var(--color-button-nav);
@@ -36,25 +40,29 @@ body {
 .contact:focus {
     color: var(--color-button-nav);
 }
-h1 {
+.first-order {
     color:var(--color-buttom-first); 
-    line-height: 1.07; 
-    text-align: center;
+    line-height: 1.07;
     font-weight: 700;
     font-size: 56px;
+    text-align: center;
+    letter-spacing: 0.02em;
 }
-h3 {
+.description-name {
     color: var(--color-background-team);
     font-size: 20px;
     line-height: 1.2;
     font-weight: 500;
+    letter-spacing: 0.02em;
 }
-h2 {
+.service-fields {
     color: var(--color-background-team);
     font-size: 36px;
     line-height: 1.11;
     font-weight: 700;
     text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
 }
 .section-order{
     color: var(--color-buttom-first);
@@ -62,7 +70,6 @@ h2 {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    text-align: center;
 }
 .logo {
     font-family: 'Raleway', sans-serif;
@@ -70,13 +77,14 @@ h2 {
     text-decoration: none;
     text-transform: uppercase;
     color:var(--color-button);
-    line-height: 1.16;
+    line-height: 1.17;
     font-weight: 800;
+    letter-spacing: 0.03em;
 }
-.logo .studio-highlight {
+.logo .logo-highlight {
     color:var(--color-background-team);
 }
-footer .logo .studio-highlight {
+.studio-highlight {
     color: var(--color-logo);
 }
 .page-footer {
@@ -89,44 +97,68 @@ footer .logo .studio-highlight {
     background-color: var(--color-background-team);
 }
 .order {
-    background-color: var(--color-button-nav);
-    border: 1px;
-    border-color: var(--color-background-header);
+    font-family: "Roboto", sans-serif;
+    background-color: var(--color-button);
     color: var(--color-buttom-first);
     font-size: 16px;
     line-height: 1.5;
     font-weight: 500;
+    letter-spacing: 0.04em;
 }
 .order:hover {
-    background-color: var(--color-background-header);
+    background-color: var(--color-button-nav);
     color: var(--color-button);
     cursor: pointer;
+}
+.order:focus {
+    color: var(--color-button-nav);
 }
 .service-navigation {
-    background-color:var(--color-button-nav);
-    border: 1px;
-    border-color: var(--color-background-header);
-    color: var(--color-buttom-first);
+    font-family: "Roboto", sans-serif;
+    background-color:var(--color-logo);
+    color: var(--color-button);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
 }
 .service-navigation:hover {
-    background-color:var(--color-background-header);
-    color: var(--color-button);
-    cursor: pointer;
+    background-color:var(--color-button-nav);
+    color: var(--color-buttom-first);
+}
+.service-navigation:focus {
+    background-color: var(--color-button-nav);
+    color: var(--color-buttom-first);
 }
 .description {
     font-size: 16px;
-    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--color-text);
 }
 .page-end {
     color:var(--color-logo);
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
+    letter-spacing: 0.02em;
 }
-.job {
+.text {
     font-size: 16px;
-    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--color-text);
 }
 ul {
     list-style-type: none;
+}
+.link {
+    text-decoration: none;
+}
+.navigation-menu .goals .contact-menu .service .team-members .service-navigation-menu .list {
+    list-style: none;
+}
+.person {
+    background-color: var(--color-buttom-first);
 }
