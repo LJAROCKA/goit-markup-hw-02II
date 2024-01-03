@@ -5,6 +5,7 @@
 --color-button: #4D5AE5;
 --color-button-nav: #404BBF;
 --color-logo: #F4F4FD;
+--color-buttom-first: #FFFFFF;
 }
 body {
     font-family: 'Roboto','Raleway', sans-serif;
@@ -36,7 +37,7 @@ body {
     color: var(--color-button-nav);
 }
 h1 {
-    color: #FFFFFF; 
+    color:var(--color-buttom-first); 
     line-height: 1.07; 
     text-align: center;
     font-weight: 700;
@@ -55,8 +56,8 @@ h2 {
     font-weight: 700;
     text-align: center;
 }
-.section-order button {
-    color: #FFFFFF;
+.section-order{
+    color: var(--color-buttom-first);
     background-color: var(--color-button);
     font-weight: 500;
     font-size: 16px;
@@ -87,10 +88,25 @@ footer .logo .studio-highlight {
 .section-order {
     background-color: var(--color-background-team);
 }
+.order {
+    background-color: var(--color-button-nav);
+    border: 1px;
+    border-color: var(--color-background-header);
+    color: var(--color-buttom-first);
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 500;
+}
+.order:hover {
+    background-color: var(--color-background-header);
+    color: var(--color-button);
+    cursor: pointer;
+}
 .service-navigation {
     background-color:var(--color-button-nav);
     border: 1px;
     border-color: var(--color-background-header);
+    color: var(--color-buttom-first);
 }
 .service-navigation:hover {
     background-color:var(--color-background-header);
