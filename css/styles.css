@@ -63,7 +63,7 @@ body {
     font-size: 36px;
     line-height: 1.11;
     font-weight: 700;
-    letter-spacing: 0.02em;
+    letter-spacing:0.02em;
     text-align: center;
     text-transform: capitalize;
 }
@@ -135,12 +135,7 @@ body {
 .service-navigation:focus {
     background-color: var(--color-button-nav);
     color: var(--color-buttom-first);
-}
-.description {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--color-text);
+
 }
 .page-end {
     color:var(--color-logo);
