@@ -60,7 +60,7 @@ body {
     text-transform: capitalize;
     text-align: center;
 }
-.description-name .list > .description-name {
+.description-name {
     color: var(--color-background-team);
     font-size: 20px;
     line-height: 1.2;
@@ -144,7 +144,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.text .list > .text {
+.text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
