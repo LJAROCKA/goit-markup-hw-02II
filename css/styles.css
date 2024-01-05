@@ -60,6 +60,9 @@ body {
     text-transform: capitalize;
     text-align: center;
 }
+.contact-menu .service .team-members .service-navigation-menu .list {
+    list-style: none;}
+
 .description-name {
     color: var(--color-background-team);
     font-size: 20px;
@@ -152,9 +155,6 @@ body {
 }
 .link {
     text-decoration: none;
-}
-.contact-menu .service .team-members .service-navigation-menu .list {
-    list-style: none;
 }
 .person {
     background-color: var(--color-buttom-first);
