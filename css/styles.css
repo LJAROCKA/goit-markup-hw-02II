@@ -49,6 +49,7 @@ body {
     font-weight: 700;
     font-size: 56px;
     letter-spacing: 0.02em;
+    text-align: center;
 }
 .service-fields {
     color: var(--color-background-team);
@@ -57,6 +58,7 @@ body {
     font-weight: 700;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    text-align: center;
 }
 .description-name {
     color: var(--color-background-team);
@@ -97,7 +99,7 @@ body {
 .section-order {
     background-color: var(--color-background-team);
 }
-.order {
+.order-button {
     font-family: "Roboto", sans-serif;
     background-color: var(--color-button);
     color: var(--color-buttom-first);
@@ -107,12 +109,12 @@ body {
     letter-spacing: 0.04em;
     cursor: pointer;
 }
-.order:hover {
+.order-button:hover {
     background-color: var(--color-button-nav);
     color: var(--color-button);
     cursor: pointer;
 }
-.order:focus {
+.order-button:focus {
     color: var(--color-button-nav);
     background-color: var(--color-button-nav);
 }
