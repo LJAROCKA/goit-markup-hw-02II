@@ -114,7 +114,6 @@ body {
 }
 .order-button:hover {
     background-color: var(--color-button-nav);
-    color: var(--color-button);
     cursor: pointer;
 }
 .order-button:focus {
